@@ -1,0 +1,7 @@
+jedis:
+  cluster:
+    nodesString: 192.168.1.16:7000,192.168.1.16:7001,192.168.1.16:7002,192.168.1.16:7003,192.168.1.16:7004,192.168.1.24:7010,192.168.1.24:7011,192.168.1.24:7012
+    testWhileIdle: true
+    connectionTimeout: 60
+    soTimeout: 60
+    maxAttempts: 1000
