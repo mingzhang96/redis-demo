@@ -25,8 +25,8 @@ public class RedisDemoApplicationTests {
 		jedisCluster.set("faceall2", "bb");
 	}
 
-//	private String channel_name = "Selected_Camera_Channel";
-    private String channel_name = "zhangming";
+	private String channel_name = "Selected_Camera_Channel";
+//    private String channel_name = "zhangming";
 //    private String channel_name = "selectedCameraIds";
 
     @Test
